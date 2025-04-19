@@ -66,7 +66,7 @@ Want to run this Pokedex on your local machine? Follow these simple steps:
 
 2.  **Navigate to the Directory:**
     ```bash
-    cd YOUR_REPOSITORY_NAME
+    cd ez-pokedex
     ```
 
 3.  **Open `index.html`:**
