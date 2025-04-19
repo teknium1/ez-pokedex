@@ -61,9 +61,8 @@ Want to run this Pokedex on your local machine? Follow these simple steps:
 
 1.  **Clone the Repository:**
     ```bash
-    git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git
+    git clone https://github.com/teknium1/ez-pokedex/tree/main.git
     ```
-    *(Replace `YOUR_USERNAME` and `YOUR_REPOSITORY_NAME` with your actual GitHub details)*
 
 2.  **Navigate to the Directory:**
     ```bash
@@ -112,7 +111,7 @@ Want to run this Pokedex on your local machine? Follow these simple steps:
 
 ## 🙌 Contributing 🙌
 
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME/issues) (if you plan to use it).
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/teknium1/ez-pokedex/tree/main/issues) (if you plan to use it).
 
 1.  Fork the Project
 2.  Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
