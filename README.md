@@ -61,7 +61,7 @@ Want to run this Pokedex on your local machine? Follow these simple steps:
 
 1.  **Clone the Repository:**
     ```bash
-    git clone https://github.com/teknium1/ez-pokedex/tree/main.git
+    git clone https://github.com/teknium1/ez-pokedex.git
     ```
 
 2.  **Navigate to the Directory:**
