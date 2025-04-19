@@ -85,7 +85,6 @@ Want to run this Pokedex on your local machine? Follow these simple steps:
 ├── style.css # CSS for styling, layout, and animations
 ├── script.js # JavaScript for API fetching, interactivity, and chart generation
 └── README.md # You are here! 😉
-└── placeholder.gif # (Optional) Replace with your actual demo GIF/image
 ```  
 
 
@@ -126,8 +125,6 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 ## 📜 License 📜
 
 Distributed under the MIT License. See `LICENSE` file (if you add one) for more information.
-
-*(Consider adding an actual `LICENSE` file to your repository - MIT is a common and permissive choice for open source)*
 
 ---
 
