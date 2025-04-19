@@ -123,7 +123,7 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 
 ## 📜 License 📜
 
-Distributed under the MIT License. See `LICENSE` file (if you add one) for more information.
+Distributed under the MIT License.
 
 ---
 
