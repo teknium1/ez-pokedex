@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Pokedex (Gen 1 - Top 50)</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Pokédex</h1>
+        <h2>First 50 Pokémon (Gen 1)</h2>
+    </header>
+
+    <main class="pokedex-container">
+        <div id="pokemon-list" class="pokemon-list-grid">
+            <!-- Pokémon cards will be loaded here by JavaScript -->
+        </div>
+
+        <div id="pokemon-detail" class="pokemon-detail-view hidden">
+            <button id="close-detail" class="close-button">×</button>
+            <div class="detail-content">
+                <h2 id="detail-name">Pokémon Name</h2>
+                <span id="detail-id">#000</span>
+                <div class="detail-sprite-container">
+                     <img id="detail-image" src="" alt="Pokemon Sprite">
+                </div>
+                <div id="detail-types" class="detail-types">
+                    <!-- Types will be loaded here -->
+                </div>
+                <div class="detail-measurements">
+                    <p><strong>Height:</strong> <span id="detail-height">?</span> m</p>
+                    <p><strong>Weight:</strong> <span id="detail-weight">?</span> kg</p>
+                </div>
+                <p id="detail-description" class="detail-description">Description loading...</p>
+                <h3>Base Stats</h3>
+                <div class="chart-container">
+                    <canvas id="stats-chart"></canvas>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div id="loading" class="loading-indicator">
+        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/poke-ball.png" alt="Loading..." class="pokeball-spinner">
+        <p>Loading Pokémon...</p>
+    </div>
+
+    <!-- Chart.js Library -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- Our JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
